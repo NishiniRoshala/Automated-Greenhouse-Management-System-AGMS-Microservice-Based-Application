@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="config-server" />
+        <module name="automation-service" />
+        <module name="crop-service" />
+        <module name="AuthService" />
+        <module name="api-gateway" />
+        <module name="Zone-Service" />
+        <module name="sensor-service" />
+        <module name="service-registry" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="AuthService" options="" />
+      <module name="Zone-Service" options="" />
+      <module name="api-gateway" options="" />
+      <module name="automation-service" options="" />
+      <module name="config-server" options="" />
+      <module name="crop-service" options="" />
+      <module name="sensor-service" options="" />
+      <module name="service-registry" options="" />
+    </option>
+  </component>
+</project>
