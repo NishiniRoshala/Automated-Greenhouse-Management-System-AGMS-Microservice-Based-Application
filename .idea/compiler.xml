@@ -23,7 +23,7 @@
       <module name="AuthService" options="-parameters" />
       <module name="Zone-Service" options="" />
       <module name="api-gateway" options="-parameters" />
-      <module name="automation-service" options="" />
+      <module name="automation-service" options="-parameters" />
       <module name="config-server" options="" />
       <module name="crop-service" options="" />
       <module name="sensor-service" options="-parameters" />
