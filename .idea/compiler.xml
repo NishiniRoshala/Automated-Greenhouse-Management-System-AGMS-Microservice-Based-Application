@@ -22,7 +22,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="AuthService" options="" />
       <module name="Zone-Service" options="" />
-      <module name="api-gateway" options="" />
+      <module name="api-gateway" options="-parameters" />
       <module name="automation-service" options="" />
       <module name="config-server" options="" />
       <module name="crop-service" options="" />
